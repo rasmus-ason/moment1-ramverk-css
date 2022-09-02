@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Ramverk - CSS</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="relative container mx-auto bg-white max-w-none">
+        <!--Container display content in flex-->
+        <div class="flex items-center justify-between p-4">
+            <!--Logo-->
+            <div>
+                <img src="img/logotyp.svg" alt="" class="object-cover h-8 w-8">
+            </div>
+            <!--Nav elements-->
+            <div class="hidden md:flex space-x-12 ml-6">
+                <a href="index.html" class="hover:text-red-300 uppercase">Home</a>
+                <a href="tailwind.html" class="hover:text-red-300 uppercase">Tailwind</a>
+                <a href="materialize.html" class="hover:text-red-300 uppercase">Materialize</a>
+                <a href="publish.html" class="hover:text-red-300 uppercase">Publicering</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero section-->
+    <section id="hero" class="mt-16">
+        <!--Content container-->
+        <div class="container flex flex-col-reverse -mb-16 hero-bp:mb-24 hero-bp:flex-row items-center px-16 mx-auto mt-10 space-y-0">
+                <!--Text content-->
+                <div class="flex flex-col mb-32 space-y-6 hero-bp:w-3/6">
+                    <h1 class="max-w-md text-4xl mt-6 font-serif font-bold text-center hero-bp:mt-16 hero-bp:text-5xl hero-bp:text-left hover:text-teal-900">
+                        With Tailwind you can build modern websites without leaving your HTML
+                    </h1>
+                </div>
+                <!--Rounded image-->
+                <div class="w-5/6 mx-auto hero-bp:w-3/6">
+                    <img class="rounded-full" src="img/hero-6.jpg" alt="">
+                </div>
+            </div>
+    </section>
+
+    <!--Tailwind content-->
+    <section id="testimonials">
+        <div class="p-12 mx-auto mt-16 mb-16 text-center bg-red-300">
+            <img src="img/Tailwind_CSS_Logo.svg.png" alt="" class="w-32 -mt-24 mx-auto bg-red-300 p-2 rounded-full">
+            <h2 class="text-4xl text-white font-thin uppercase text-center">Om Tailwind</h2>
+            <!--Text container-->
+            <div class="flex-col mx-auto mt-6 mb-12 max-w-2xl">
+                <p class="text-sm leading-loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officiis molestias atque veniam. Reprehenderit, corporis quidem animi labore quasi non et doloremque alias eius officiis temporibus unde incidunt? Vel, reiciendis non. Maiores sequi nesciunt ratione non laudantium velit, ipsum sed?</p>
+            </div>
+            <a href="https://tailwindcss.com/"
+                class="p-3 px-12 pt-3 text-white bg-black uppercase font-thin rounded-full baseline 
+                hover:bg-slate-800 cursor-pointer"
+                >Besök webbplats</a>
+        </div>
+
+    </section>
+
+    <!--Table-->
+    <section>
+        <h3 class="text-3xl font-thin uppercase text-center mb-6">Vad är bra och mindre bra med Tailwind?</h3>
+        <div class="mb-24 overflow-x-auto">
+            <table class="w-5/6  mx-auto  bg-lightgrey border-4 border-teal-700 ">
+                <thead class="p-6">
+                    <tr>
+                        <th class="py-3 bg-teal-700 text-white uppercase font-thin">Fördelar</th>
+                        <th class="py-3 bg-teal-700 text-white uppercase font-thin">Nackdelar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-lightgrey text-teal-800">
+                        <!--Fördel-->
+                        <td class="py-4 px-6">Tydlig dokumentation av klasser.</td>
+                        <!--Nackdel-->
+                        <td class="py-4 px-6">Mycket kod i HTML-dokumenten.</td>
+                    </tr>
+                    <tr class="bg-white text-teal-800">
+                        <!--Fördel-->
+                        <td class="py-4 px-6">När man memorerat lite klasser går arbetsprocessen snabbt.</td>
+                        <!--Nackdel-->
+                        <td class="py-4 px-6">Webbplatser kan tendera att efterlikna varandra.</td>
+                    </tr>
+                    <tr class="bg-lightgrey text-teal-800">
+                        <!--Fördel-->
+                        <td class="py-4 px-6">Enkelt att använda grid och flexbox.</td>
+                        <!--Nackdel-->
+                        <td class="py-4 px-6"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!--Form-->
+    <section>
+        <div class="bg-red-300 py-24 px-8">
+            <h3 class="text-3xl md:text-4xl text-white font-thin uppercase text-center mb-12">Fyll på med synpunkter om Tailwind!</h3>
+            <form action="" class="container flex flex-col max-w-lg mx-auto">
+                <label for="" class="font-thin uppercase">Namn</label>
+                <input type="text" class="mb-4 rounded-sm shadow-md">
+
+                <label for="" class="font-thin uppercase">Nåt bra eller mindre bra?</label>
+                <select class="font-thin mb-4 rounded-sm shadow-md" name="" id="">
+                    <option value="pro" class="font-thin">Något bra!</option>
+                    <option value="con" class="font-thin">Nja, något mindre bra!</option>
+                </select>
+
+                <label for="" class="font-thin uppercase">Berätta din åsikt!</label>
+                <textarea name="" id="" cols="30" rows="10" class="mb-4 rounded-sm shadow-md"></textarea>
+
+                <div class="flex items-center">
+                    <input type="checkbox" name="" id="">
+                    <label for="" class="ml-4 block text-sm">Godkänner att uppgifter sparas?</label>
+                </div>
+
+                <input  class="p-2 px-12 mt-6 text-white bg-black uppercase font-thin baseline 
+                hover:bg-slate-800 cursor-pointer" type="submit" value="Lägg till">
+            </form>
+        </div>
+    </section>
+
+    <!--Link to other underpage-->
+    <section class="mb-24 mt-24 max-w-none bg-teal-700 ">
+        <!--Content container-->
+        <div class="container flex flex-col items-center p-16 mx-auto mt-10">
+            <img src="img/materialise-logo.svg" alt="" class="p-5 w-44 -mt-28 mb-6 mx-auto bg-teal-700 rounded-full">
+                <!--Text content-->
+                <div class="mb-4">
+                    <h3 class="max-w-md text-2xl text-white font-thin uppercase text-center md:text-3xl">
+                        Kika in sidan om Materialize!
+                    </h3>
+                </div>
+                <div class="flex-col mx-auto mt-2 mb-8 max-w-2xl">
+                    <p class="text-md text-white font-thin leading-loose">Materialize är ett annat ramverk för CSS. Det är ett ramverk för...</p>
+                </div>
+                <!--Internal link button-->
+                <a href="materialize.html"
+                class="p-3 px-12 pt-3 text-white bg-black uppercase font-thin rounded-full baseline 
+                hover:bg-slate-800 cursor-pointer"
+                >Läs mer om Materialize!</a>
+                
+            </div>
+    </section>
+
+
+    <!--Footer section-->
+    <footer class="bg-black pt-6 pb-8 mx-auto">
+        <h4 class="text-xl text-white font-thin uppercase text-center">Fullstackutveckling med ramverk</h4>
+        <h5 class="text-white text-center py-4">@Rasmusandersson</h5>
+    </footer>
+    
+    
+</body>
+</html>

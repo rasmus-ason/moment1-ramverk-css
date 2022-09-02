@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    
+    <title>Ramverk - CSS</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="relative container mx-auto bg-white max-w-none">
+        <!--Container display content in flex-->
+        <div class="flex items-center justify-between p-4">
+            <!--Logo-->
+            <div>
+                <img src="img/logotyp.svg" alt="" class="object-cover h-8 w-8">
+            </div>
+            <!--Nav elements-->
+            <div class="hidden md:flex space-x-12 ml-6">
+                <a href="index.html" class="hover:text-cyan-800 uppercase">Home</a>
+                <a href="tailwind.html" class="hover:text-cyan-800 uppercase">Tailwind</a>
+                <a href="materialize.html" class="hover:text-cyan-800 uppercase">Materialize</a>
+                <a href="publish.html" class="hover:text-cyan-800 uppercase">Publicering</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero section-->
+    <section id="hero" class="mt-16">
+        <!--Content container-->
+        <div class="container flex flex-col-reverse -mb-16 hero-bp:mb-24 hero-bp:flex-row items-center px-16 mx-auto mt-10 space-y-0">
+                <!--Text content-->
+                <div class="flex flex-col mb-32 space-y-6 hero-bp:w-3/6">
+                    <h1 class="max-w-md text-4xl mt-6 font-serif font-bold text-center hero-bp:mt-16 hero-bp:text-5xl hero-bp:text-left hover:text-teal-900">
+                        CSS-ramverk och publicerings-plattformar
+                    </h1>
+                </div>
+                <!--Rounded image-->
+                <div class="w-5/6 mx-auto hero-bp:w-3/6">
+                    <img class="rounded-full" src="img/hero-image.jpg" alt="">
+                </div>
+            </div>
+    </section>
+
+    <!--Tailwind content-->
+    <section id="testimonials">
+        <div class="p-12 mx-auto mt-16 mb-0 text-center bg-cyan-800">
+            <h2 class="text-4xl text-white font-thin uppercase text-center">Om Uppgiften</h2>
+            <!--Text container-->
+            <div class="flex-col mx-auto mt-6 mb-12 max-w-2xl">
+                <p class="text-sm leading-loose text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officiis molestias atque veniam. Reprehenderit, corporis quidem animi labore quasi non et doloremque alias eius officiis temporibus unde incidunt? Vel, reiciendis non. Maiores sequi nesciunt ratione non laudantium velit, ipsum sed?</p>
+            </div>
+             <!--Internal link button-->
+             <div class="flex flex-col md:flex-row ">
+                <a href="tailwind.html"
+                    class="mx-auto px-8 py-2 mb-6 text-white text-center bg-black uppercase font-thin rounded-full baseline 
+                    hover:bg-slate-800 cursor-pointer"
+                    >Läs mer om Tailwind!</a>
+                <!--Internal link button-->
+                <a href="materialize.html"
+                    class="mx-auto px-8 py-2 mb-6 text-white text-center bg-black uppercase font-thin rounded-full baseline 
+                    hover:bg-slate-800 cursor-pointer"
+                    >Läs mer om Materialize!</a>
+            </div>
+        </div>
+
+    </section>
+
+ 
+
+  
+
+
+    <!--Footer section-->
+    <footer class="bg-black pt-6 pb-8 mx-auto">
+        <h4 class="text-xl text-white font-thin uppercase text-center">Fullstackutveckling med ramverk</h4>
+        <h5 class="text-white text-center py-4">@Rasmusandersson</h5>
+    </footer>
+    
+    
+</body>
+</html>

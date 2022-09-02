@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+	<title>Nytt projekt</title>
+	<defs>
+		<image  width="60" height="60" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8AQMAAAAAMksxAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAA9JREFUeJxjYBgFowA7AAACHAAB7ge4+gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #49cfcf } 
+		.s1 { fill: #d632c3 } 
+		.s2 { fill: #f890f9 } 
+		.s3 { fill: #0b9d9d } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Lager 1" class="s0" d="m42.5 60c-9.1 0-16.5-7.4-16.5-16.5 0-9.1 7.4-16.5 16.5-16.5 9.1 0 16.5 7.4 16.5 16.5 0 9.1-7.4 16.5-16.5 16.5z"/>
+	<path id="Lager 1 copy 3" class="s1" d="m16.5 59c-9.1 0-16.5-7.4-16.5-16.5 0-9.1 7.4-16.5 16.5-16.5 9.1 0 16.5 7.4 16.5 16.5 0 9.1-7.4 16.5-16.5 16.5z"/>
+	<path id="Lager 1 copy 2" class="s2" d="m43.5 34c-9.1 0-16.5-7.4-16.5-16.5 0-9.1 7.4-16.5 16.5-16.5 9.1 0 16.5 7.4 16.5 16.5 0 9.1-7.4 16.5-16.5 16.5z"/>
+	<path id="Lager 1 copy" class="s3" d="m17.5 34c-9.1 0-16.5-7.4-16.5-16.5 0-9.1 7.4-16.5 16.5-16.5 9.1 0 16.5 7.4 16.5 16.5 0 9.1-7.4 16.5-16.5 16.5z"/>
+</svg>
