@@ -1,6 +1,11 @@
 
 .nav-wrapper {
-    padding-left: 5rem; padding-right: 5rem;
+    padding-left: 3rem; padding-right: 5rem;
+}
+
+.nav-wrapper img {
+    padding-top: 0.7rem; padding-bottom: 0.5rem;
+    width: max(35px, 2.7vw);
 }
 
 .hero-content {

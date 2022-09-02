@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>Nytt projekt</title>
+	<defs>
+		<image  width="45" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAuCAMAAACLUGAGAAAAAXNSR0IB2cksfwAAAR1QTFRF/////+m//81w/7xA/7cw/6YA/+7P//nv/9OA/6wQ/+Ov/7Eg39/foKCgYGBgQEBAEBAQkF4AAAAAoGgA/8dgICAg/81vz8/PUDQAn5+fEAoA35EAgFMA/9J/8JwAQCoADDlCEEtXq6BCkJ9X46QW8aUL1aMhElVjIZevHISZwH0APJmZj55YuaE3/7w/Ci83BBMW0IcAV5qDgZ5jLpikAgoLSpmOZZx4GnuOFF5uc5xux6IsnZ9N/7YvSZqOX19fMB8APz8//6sPmJRC/7EfMnFuDw8PSIh4EExYCCYs4JIAb29vGHGDLi4WS5KDKJSkHYSZFmh4DkJNLScdf1MAz4cABhwhHx8f/92f+aUK75wATFo3H46kRpiOpZ+VTLisfQAAAF90Uk5TAP///////wD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////pR0GoAAACfElEQVR4nIWVe0MSQRDASdmQh4FrxaMDUdQGswKyzJD0qCiFHpokPb//x2hn5vbFcTp/3dz+mP3t7O6RSiXFnaXltBDp5aW7iYiOzEpWmMiuZG6Ec3nhRT63mCus3iuW1kQslhawq0WpYj0OC3E/xj5AVi6ojPHQY8tUV8rKYlgI171aYrj2KInOO7CMIkiChajHYNlIprMxeCMZFoJ3tVxqbm42bUO2Wq3WtmF2VLZLT9yWonwM0CZ6D98+AYB9Qz9VGdPPIo/n6k0H6a56ua0S6Bn6BcABP6WRVpvyUo2TCokgDYZ+BXAYPeolvgY40vQbNQzQ19rql8eWpj3U4l3SPuhbcastBurU0eq0+B5pHworbrVxldxrLb5G2sfirRF3tFUHT3hbIvFT0t7FipG4o612J2RaizdQm2xZvG+1h2qR0dnT4gFpYydYfN9q46mKDogWr73jmbV4z2i/T1nadPwDz6zFrXbOpbV4m2eOxK12QEdqJD3xDsDHaAt7rvb6iOjQF28CfKJjy+JaO5Ah0Se++BHAmaycU9v7Wvu8IuXYvzcs3gbAzgSNLRQn7UaAw1X+OklXXGlPOP0M8AW1v55yXkjFxVE7yr+pWSYAF5yF81cYxUmbAx9VgUvOqvrz8P1qKsT0qobirE2hprlQ9A9KrjU8+8l79es33bCJpjuU/vFLz8wF3KFhrU3iWltbZ5w/gb84fGZo9GDtUTmi6xbGk2S1pbwErW2WOHBoMZULw8Ap4cUt8O30yIF9k24cDssO7K1SBPPstVsYOzi08PBf6NedY73dETN1IqvjEG/TKBxXCzEW8aj6cLZoNBaZulrqoH7znznFf+oOit3Pj8/uAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="W" href="#img1" x="4" y="1"/>
+</svg>
